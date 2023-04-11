@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE notes [
+
+<!ELEMENT notes (note+)>
+<!ELEMENT note (img)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #IMPLIED
+              width CDATA #IMPLIED
+              height CDATA #IMPLIED
+>
+<!ELEMENT input EMPTY>
+<!ATTLIST input type CDATA #IMPLIED
+                value CDATA #IMPLIED
+                class CDATA #IMPLIED
+>
+
+]>
+
+<notes>
+    <note>
+        <title>Please Be Advised T-Shirt</title>
+        <price currency="PHP">75.00</price>
+        <img src="../PICTURE/TRENDS/MEN/1.jpg" width="250" height="250"></img>
+        <input type="button" value="Purchase" class="btn5"></input>
+    </note>
+</notes

@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  align-items: center;
+  justify-content: center;
+}
+.navbar{
+    transition: 0.6s;
+    height: auto;
+    width: 100%;
+    background-color: #e4d4c0;
+    padding: 10px;
+    border-bottom: 1px rgb(155, 155, 155) solid;
+    align-items: center;
+    z-index: 100000;
+    position: fixed;
+}
+.navbar.sticky{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.small-nbcontainer{
+    float: left;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.logo img {
+    position: relative;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.navbar-title{
+    float: left;
+    font-size: 18px;
+}
+
+.hbanner-container{
+    padding-top: 200px;
+    background-image: url(../PICTURE/BANNER/header.png);
+    background-size: cover;
+    width: 100%;
+    height: 103vh;
+}
+.main{
+    width: 100%;
+    margin: auto;
+    background-color: #f4f1eb;
+    background-position: center;
+    height: 100%;
+    border: 2px black solid;
+    padding-top: 20px;
+}
+.container{
+    margin: auto;
+    display: block;
+    width: 390px;
+    padding: 40px 30px 30px 20px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+.container header{
+   text-align: center;
+   padding: 3px;
+   font-size: 25px;
+   font-weight: 600;
+}
+.form{
+    padding: 8px;
+    position: relative;
+}
+input[type=text], input[type=password]{
+    padding: 9px;
+    width: 100%;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    outline: none;
+    background: none;
+    caret-color: rgb(155, 152, 4);
+    border-radius: 20px;
+    border-bottom-width: 2px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    outline: 0;
+}
+
+input[type=submit]{
+    width: 55%;
+    background-color: #FFA710;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color:#d88c0a;
+}
+.sign-txt a{
+    color: rgb(27, 31, 255);
+    text-decoration: none;
+  }
+.sign-txt a:hover{
+    text-decoration: underline;
+  }
+.form .fa {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    display:none;
+}
+.fa-check{
+    color: green;
+}
+.fa-times{
+    color: red;
+}
+#error{
+    color: crimson;
+}
+
+/* -- Footer Part -- */
+.footer{
+    width: auto;
+    padding: auto;
+    margin: auto;
+    height: auto;
+    background-color: #e4d4c0;
+}
+.footerbar{
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+.tbfooter{
+    padding-left: 70px;
+    margin-right: 10px;
+    font-family: 'Segoe UI';
+    width: 50%;
+    float: left;
+}
+.footerbar ul li{
+    list-style: none;
+}
+.footerbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.hfooter{
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.tbfooter td{
+    vertical-align: baseline;
+}
+.findus{
+    padding: auto;
+    margin: auto;
+    float: left;
+}
+.findh{
+    margin-left: 200px;
+}
+.findh h2{
+    font-size: 16px;
+    font-family: 'Segoe UI';
+}
+.findimg{
+    width: 300px;
+    margin-left: 200px;
+    background-color: black;
+}
